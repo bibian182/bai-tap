@@ -1,0 +1,74 @@
+div.logo{
+	position: absolute;
+	z-index: 1;
+	top: 1px;
+}
+
+img{
+	border-radius: 100%;
+	width: 230px;
+	height: 230px;
+}
+div.info{
+	position: relative;
+	background: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	padding: 25px 0;
+	text-align: center;
+}
+div.name{
+	font-size: 50px;
+	color: red;
+	font-weight: bold;
+}
+div.introduce{
+	font-size: 25px;
+	color: green;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 250px;
+}
+div.introduce ul{
+	list-style-type: square;
+}
+div.introduce ul li{
+	display: inline-block;
+	margin: 10px 40px 0;
+}
+div.menu{
+	background: green;
+	width: 100%;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: -15px
+}
+ul.menu li{
+	display: inline-block;
+	padding:25px 40px ;
+	color: white;
+	font-weight: bold;
+}	
+div.search{
+	width: 20%;
+	border: 2px solid grey;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 5px;
+	color: red;
+	position: relative;
+	top: -270px;
+}
+div.content{
+	width: 75%;
+	display: inline-block;
+	padding: 10px;
+}
+div.footer{
+	text-align: left;
+	font-style: italic;
+	color: gray;
+	font-size: 20px;
+	padding: 15px;
+}
