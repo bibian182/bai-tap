@@ -1,13 +1,14 @@
 div.logo{
 	position: absolute;
 	z-index: 1;
-	top: 1px;
+	top: 30px;
+	left: 50px;
 }
 
 img{
 	border-radius: 100%;
-	width: 230px;
-	height: 230px;
+	width: 120px;
+    height: 120px;
 }
 div.info{
 	position: relative;
@@ -22,6 +23,7 @@ div.name{
 	font-size: 50px;
 	color: red;
 	font-weight: bold;
+	padding-top: 10px;
 }
 div.introduce{
 	font-size: 25px;
@@ -58,12 +60,16 @@ div.search{
 	padding: 5px;
 	color: red;
 	position: relative;
-	top: -270px;
+	vertical-align: top;
 }
 div.content{
-	width: 75%;
+	width: 78%;
 	display: inline-block;
-	padding: 10px;
+	padding: 50px 0;
+	background: url(bgbody.jpg) top;
+	background-repeat: no-repeat;
+	text-indent: 15px;
+	background-size: 100% 30%;: 
 }
 div.footer{
 	text-align: left;
@@ -71,4 +77,15 @@ div.footer{
 	color: gray;
 	font-size: 20px;
 	padding: 15px;
+	position: relative;
+    top: -40px;
+    left: 25px;
+}
+div.all{
+	background: url(bgfooter.jpg) bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 25%;
+}
+div.container{
+	margin-bottom: 70px;
 }
